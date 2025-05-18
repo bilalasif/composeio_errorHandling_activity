@@ -4,7 +4,7 @@ import { createOpenAPIResponseSchema } from "@/lib/helpers";
 import { ErrorSchema, errorToHTTPException, PrismaError } from "@/lib/error";
 
 export const config = {
-  runtime: "nodejs",
+  runtime: "edge",
 };
 
 // Base path is automatically prefixed by Next.js with `/api`,
